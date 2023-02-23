@@ -1,16 +1,54 @@
+
+body{
+    font-family: "Ubuntu";
+}
+
 #title{
     background-color: #E2294F;
- 
+    color: white;
+
 }
 h1{
     /* font-family: 'Ubuntu', sans-serif; */
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
 
 }
 
 .container-fluid{
-    padding: 3% 10%;
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding: 5px 5rem 4.5rem 5rem;
+}
+
+.download-btn{
+    margin: 5% 2% 5% 2%;
+}
+
+.iphone-img{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+nav>a{
+    font-family: 'Ubuntu',sans-serif;
+
+}
+
+.icons{
+    color: #E2294F;
+}
+
+/* =========FEATURES======= */
+
+#features{
+    margin: 5% 15%;
+}
+
+.features{
+    text-align: center;
 }

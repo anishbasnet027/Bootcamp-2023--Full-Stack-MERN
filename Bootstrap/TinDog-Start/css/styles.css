@@ -1,0 +1,16 @@
+#title{
+    background-color: #E2294F;
+ 
+}
+h1{
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.container-fluid{
+    padding: 3% 10%;
+}

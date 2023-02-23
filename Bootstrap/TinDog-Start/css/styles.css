@@ -17,6 +17,12 @@ h1{
 
 }
 
+h2{
+    font-family: Montserrat;
+    font-size: 3rem;
+    line-height: 2;
+}
+
 .container-fluid{
     padding: 3% 15%;
 }
@@ -40,7 +46,7 @@ nav>a{
 }
 
 .icons{
-    color: #E2294F;
+    color: #e43d5e;
 }
 
 /* =========FEATURES======= */
@@ -51,4 +57,42 @@ nav>a{
 
 .features{
     text-align: center;
+}
+
+/* ======= TESTOMONIAL ====== */
+#testimonials{
+    background-color: #e43d5e;
+    font-family: Montserrat;
+    text-align: center;
+  
+    color: #fff;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+
+
+em{
+    font-size: 1.5em;
+}
+.testimonial-img{
+   width: 15%;
+   border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* == PRESS ===== */
+
+#press{
+    text-align: center;
+    padding-bottom: 3%;
+    padding: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 2%;
 }

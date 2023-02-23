@@ -23,6 +23,14 @@ h2{
     line-height: 2;
 }
 
+.h3-text{
+    font-weight: bold;
+    font-size: 2em;
+}
+.p-text{
+    font-size: 1.5em;
+}
+
 .container-fluid{
     padding: 3% 15%;
 }
@@ -38,6 +46,7 @@ h2{
 .iphone-img{
     width: 60%;
     transform: rotate(25deg);
+
 }
 
 nav>a{
@@ -47,12 +56,13 @@ nav>a{
 
 .icons{
     color: #e43d5e;
+    padding-bottom: 15px;
 }
 
 /* =========FEATURES======= */
 
 #features{
-    margin: 5% 15%;
+    margin: 5% 15%;   
 }
 
 .features{
@@ -95,4 +105,66 @@ em{
 .press-logo{
     width: 15%;
     margin: 2%;
+}
+
+/* ======= PRICING========== */
+
+#pricing{
+    text-align: center;
+}
+
+.price-card{
+    padding: 1%;
+}
+
+#cta{
+    background-color: #E2294F;
+}
+
+.footer{
+    background-color: #E2294F;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.footer-text{
+    margin: auto;
+    padding: 3%;
+    
+}
+
+/* ===RESPONSIVE ======== */
+
+@media (max-width:1300px){
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 1em;
+        
+    }
+    h2,h3{
+        font-size: 1em;
+    }
+    .em-text{
+        font-size: 1em;
+    }
+    .h3-text{
+        font-size: 1.5em;
+    }
+    .p-text{
+        font-size: 1em;
+    }
+    .iphone-img{
+        padding-top: 5%;
+        margin: 10%;
+    }
+    .footer{
+        font-size: 1em;
+    }
+    .navbar{
+        padding: none;
+    }
+
 }
